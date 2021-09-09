@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	set "github.com/root_root1/conTut/data/Set"
+	set "github.com/root_root1/conTut/data/test/set"
 )
 
 func main() {
@@ -23,5 +23,5 @@ func main() {
 	anotherSet.AddElement(4)
 	anotherSet.AddElement(5)
 	fmt.Println(setData.Intersect(anotherSet))
-	fmt.Println(setData.UnionSet(anotherSet))
+	fmt.Println(setData.Union(anotherSet))
 }
