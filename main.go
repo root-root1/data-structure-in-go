@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	set "github.com/root_root1/conTut/data/test/set"
+	set "github.com/root-root1/conTut/data/test/set"
 )
 
 func main() {
